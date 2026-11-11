@@ -20,6 +20,7 @@ jobs:
           unzip -q nasir-hamid-portfolio-github.zip -d /tmp/portfolio
 
           cp -a /tmp/portfolio/nasir-hamid-portfolio/. .
+          rm -f .github/workflows/ci.yml
 
           rm -f nasir-hamid-portfolio-github.zip
 
